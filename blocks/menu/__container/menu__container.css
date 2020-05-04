@@ -1,0 +1,21 @@
+.menu__container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 363px);
+  grid-column-gap: 6%;
+  padding-top: 51px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 585px) {
+  .menu__container {
+    -ms-grid-columns: max-content;
+    grid-template-columns: max-content;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}

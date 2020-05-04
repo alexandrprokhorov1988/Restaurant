@@ -1,0 +1,11 @@
+.nav__list_type_header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  max-width: 133px;
+  height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__list_type_header {
+    height: 50px;
+  }
+}

@@ -1,0 +1,22 @@
+.title{
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  position: relative;
+}
+
+.title:after {
+  content: '';
+  width: 60px;
+  height: 5px;
+  background: #E8C300;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}

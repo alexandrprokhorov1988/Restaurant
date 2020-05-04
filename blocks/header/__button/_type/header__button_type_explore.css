@@ -1,0 +1,10 @@
+.header__button_type_explore {
+  margin-left: 19px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__button_type_explore {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}

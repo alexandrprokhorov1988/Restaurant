@@ -1,0 +1,15 @@
+.menu__item-name {
+  grid-area: name;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: 'Banny Round', 'Arial', 'Helvetica', sans-serif;
+  color: #333333;
+}
+
+@media screen and (max-width: 585px) {
+  .menu__item-name {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

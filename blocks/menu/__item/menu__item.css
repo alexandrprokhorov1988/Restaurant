@@ -1,0 +1,28 @@
+.menu__item {
+  min-height: 66px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: repeat(2, auto);
+  -ms-grid-rows: 18px 18px;
+  grid-template-rows: repeat(2, 18px);
+  grid-template-areas:
+          "name price"
+          "description .";
+}
+
+@media screen and (max-width: 425px) {
+  .menu__item{
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+    -ms-grid-rows: 18px 18px 18px 18px;
+    grid-template-rows: repeat(4, 18px);
+    grid-template-areas:
+            "name"
+            "price"
+            "description";
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+  }
+}

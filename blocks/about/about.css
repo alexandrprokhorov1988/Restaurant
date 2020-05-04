@@ -1,0 +1,28 @@
+@import url(./__img/about__img.css);
+@import url(./__square/about__square.css);
+@import url(./__text/about__text.css);
+@import url(./__img-container/about__img-container.css);
+@import url(./__text-container/about__text-container.css);
+
+.about {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: calc(100% - 11.11%);
+  padding-top: 100px;
+  padding-bottom: 189px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 80px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 80px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px){
+  .about{
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;  }
+}

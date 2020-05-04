@@ -1,0 +1,25 @@
+.header__decorate-line {
+  content: '';
+  background: rgba(255, 255, 255, 0.2);
+  width: 1px;
+  height: 450px;
+  position: absolute;
+  bottom: 49px;
+  left: 50%;
+}
+
+.header__decorate-line:before {
+  content: '';
+  background: rgba(255, 255, 255, 0.2);
+  width: 1px;
+  height: 153px;
+  position: absolute;
+  bottom: -214px;
+  left: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__decorate-line {
+    display: none;
+  }
+}

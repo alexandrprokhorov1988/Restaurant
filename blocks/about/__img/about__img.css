@@ -1,0 +1,11 @@
+.about__img {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+  max-width: 475px;
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}

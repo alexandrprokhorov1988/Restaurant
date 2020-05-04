@@ -1,0 +1,20 @@
+.contact__list {
+  width: 100%;
+  overflow: hidden;
+}
+
+.contact__list:not(:last-of-type) {
+  padding-right: 10px;
+}
+.contact__list:not(:first-of-type) {
+  padding-left: 10px;
+}
+@media screen and (max-width: 425px) {
+  .contact__list:not(:last-of-type) {
+    padding-bottom: 15px;
+    padding-right: 0;
+  }
+  .contact__list:not(:first-of-type) {
+    padding-left: 0;
+  }
+}

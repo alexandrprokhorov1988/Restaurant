@@ -1,0 +1,26 @@
+@import url(./__container/menu__container.css);
+@import url(./__item/menu__item.css);
+@import url(./__item-name/menu__item-name.css);
+@import url(./__item-description/menu__item-description.css);
+@import url(./__item-price/menu__item-price.css);
+@import url(./__column/menu__column.css);
+
+.menu {
+  margin: 0 auto;
+  width: calc(100% - 11.11%);
+  max-width: 1280px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 87px;
+}

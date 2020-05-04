@@ -1,0 +1,13 @@
+.contact__nav {
+  grid-area: nav;
+  max-width: 640px;
+  max-height: 60px;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .contact__nav {
+    padding-top: 20px;
+  }
+}

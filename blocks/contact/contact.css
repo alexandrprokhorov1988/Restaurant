@@ -1,0 +1,32 @@
+@import url(./__list/contact__list.css);
+@import url(./__list-text/contact__list-text.css);
+@import url(./__list-text/_type/contact__list-text_type_mark.css);
+@import url(./__list-text/_type/contact__list-text_type_phone.css);
+@import url(./__list-text/_type/contact__list-text_type_mail.css);
+@import url(./__lists/contact__lists.css);
+@import url(./__nav/contact__nav.css);
+
+.contact{
+  margin: 0 auto;
+  max-width: 1280px;
+  width: calc(100% - 11.11%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}

@@ -1,0 +1,58 @@
+@import url(./__input/form__input.css);
+@import url(./__submit-button/form__submit-button.css);
+@import url(./__textarea/form__textarea.css);
+@import url(./__input/_type/form__input_type_phone.css);
+@import url(./__input/_type/form__input_type_email.css);
+@import url(./__input/_type/form__input_type_name.css);
+
+.form {
+  width: 100%;
+  max-width: 1280px;
+  padding-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 11px 1fr 11px 1fr 11px 1fr 11px 1fr 11px 1fr;
+  grid-template-columns: repeat(6, 1fr);
+  -ms-grid-rows: 60px 10px 120px 10px 60px;
+  grid-template-rows: 60px 120px 60px;
+  grid-row-gap: 10px;
+  grid-column-gap: 11px;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  grid-template-areas:
+          "name name email email phone phone"
+          "textarea textarea textarea textarea textarea textarea"
+          "nav nav nav submit submit submit";
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: 60px 120px 60px 60px;
+    grid-template-rows: 60px 120px 60px 60px;
+    grid-template-areas:
+            "name email phone"
+            "textarea textarea textarea"
+            "submit submit submit"
+            "nav nav nav";
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .form {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 60px 60px 60px 120px 60px 60px;
+    grid-template-rows: repeat(3, 60px) 120px 60px 60px;
+    grid-template-areas:
+            "name"
+            "email"
+            "phone"
+            "textarea"
+            "submit"
+            "nav";
+  }
+}

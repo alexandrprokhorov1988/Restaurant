@@ -1,0 +1,25 @@
+@import url(./__img/gallerie__img.css);
+
+.gallerie {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 1024px) {
+  .gallerie {
+    -ms-grid-columns: minmax(auto, 1fr) minmax(auto, 1fr);
+    grid-template-columns: repeat(2, minmax(auto, 1fr));  }
+}
+
+@media screen and (max-width: 425px) {
+  .gallerie {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+
+  }
+}

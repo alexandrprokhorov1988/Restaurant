@@ -1,0 +1,18 @@
+.header__subtitle {
+  font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  padding-top: 225px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__subtitle {
+    padding-top: 50px;
+  }
+}

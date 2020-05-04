@@ -1,0 +1,10 @@
+.subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  max-width: 560px;
+  text-align: center;
+  margin: 0;
+  padding-top: 33px;
+}

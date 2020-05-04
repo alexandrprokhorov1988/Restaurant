@@ -1,0 +1,10 @@
+.header__button_type_table {
+  margin-right: 19px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__button_type_table {
+    margin-right:0;
+    margin-bottom: 20px;
+  }
+}

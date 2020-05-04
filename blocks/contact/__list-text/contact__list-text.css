@@ -1,0 +1,25 @@
+.contact__list-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(51, 51, 51, 0.5);
+  margin: 0;
+  font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
+  letter-spacing: -0.5px;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  max-width: 190px;
+}
+
+.contact__list-text:before {
+  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+  font-weight: 900;
+  color: #E8C300;
+  height: 14px;
+  width: 14px;
+  padding-right: 10px;
+  font-size: 14px;
+  line-height: 14px;
+}

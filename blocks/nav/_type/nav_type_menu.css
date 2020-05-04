@@ -1,0 +1,6 @@
+.nav_type_menu{
+  background-color: #FFFFFF;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -25px;
+}

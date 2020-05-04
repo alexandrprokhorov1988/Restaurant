@@ -1,0 +1,68 @@
+@import url(./__button/header__button.css);
+@import url(./__date/header__date.css);
+@import url(./__subtitle/header__subtitle.css);
+@import url(./__title/header__title.css);
+@import url(./__social-nav/header__social-nav.css);
+@import url(./__links/header__links.css);
+@import url(./__list/header__list.css);
+@import url(./__link/header__link.css);
+@import url(./__button/_type/header__button_type_explore.css);
+@import url(./__button/_type/header__button_type_table.css);
+@import url(./__button/_type/header__button_type_more.css);
+@import url(./__logo/header__logo.css);
+@import url(./__main-container/header__main-container.css);
+@import url(./__button-container/header__button-container.css);
+@import url(./__decorate-line/header__decorate-line.css);
+
+.header {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  height: 800px;
+  background-image: url(../../images/header-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 294px 1fr 1fr 294px;
+  grid-template-columns: 294px repeat(2, 1fr) 294px;
+  -ms-grid-rows: 100px 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px repeat(4, 1fr);
+  grid-template-areas:
+          "right-nav right-nav left-nav left-nav"
+          "date container container social-nav"
+          "date container container social-nav"
+          "date container container social-nav"
+          ". container container .";
+}
+
+@media screen and (max-width: 1024px){
+  .header {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+            "right-nav left-nav"
+            "logo logo"
+            "container container"
+            "social-nav social-nav"
+            "date date";
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+            "right-nav logo logo left-nav"
+            "right-nav container container left-nav"
+            "social-nav social-nav social-nav social-nav"
+            ". date date .";
+  }
+}
+
+

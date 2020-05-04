@@ -1,0 +1,30 @@
+@import url(./__list/nav__list.css);
+@import url(./__list/_type/nav__list_type_header.css);
+@import url(./__list/_type/nav__list_type_menu.css);
+@import url(./__link/nav__link.css);
+@import url(./__links/nav__links.css);
+@import url(./__link/_type/nav__link_type_header.css);
+@import url(./__link/_type/nav__link_type_menu.css);
+@import url(./_position/nav_position_left.css);
+@import url(./_position/nav_position_right.css);
+@import url(./__links/_type/nav__links_type_header.css);
+
+.nav {
+  width: 100%;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    padding-top: calc(50px - 14px);
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .nav {
+    padding-top: calc(50px - 18px);
+  }
+}

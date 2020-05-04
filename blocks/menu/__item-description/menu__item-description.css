@@ -1,0 +1,17 @@
+.menu__item-description {
+  grid-area: description;
+  margin: 0;
+  font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(51, 51, 51, 0.5);
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 585px) {
+  .menu__item-description {
+    font-size: 10px;
+    line-height: 10px;
+  }
+}

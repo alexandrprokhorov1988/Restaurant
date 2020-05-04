@@ -1,0 +1,15 @@
+.menu__item-price {
+  grid-area: price;
+  margin: 0;
+  font-family: 'Banny Round', 'Arial', 'Helvetica', sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333333;
+}
+
+@media screen and (max-width: 585px) {
+  .menu__item-price {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
