@@ -1,4 +1,4 @@
-# Проект 4: Место
+# Верстка по макету Restaurant
 
 ### Обзор
 * Описание
@@ -6,16 +6,14 @@
 * Технологии
 
 #### Описание
-* [Ссылка на макет в Figma (спринт 4)](https://www.figma.com/file/StZjf8HnoeLdiXS7dYrLAh/JavaScript.-Sprint-4)
-* [Ссылка на макет в Figma (спринт 5)](https://www.figma.com/file/nlYpT4VhFiwimn2YlncrcF/JavaScript.-Sprint-5?node-id=90%3A249)
+* [Ссылка на макет в Figma](https://www.figma.com/file/yhqJTln2yAEuka54oIrOzY/restaurant?node-id=0%3A1)
 
 #### Инструкция
-* [Ссылка на проект](https://alexandrprokhorov1988.github.io/mesto/)
+* [Ссылка на проект](https://alexandrprokhorov1988.github.io/Restaurant/)
 
 
 #### Технологии
 * Спецификации HTML, CSS.
-* Язык Javascript.
 * Страница разработана по методологии компонентного подхода БЭМ. 
 * **Nested БЭМ** структура.  
 * Адаптивность от 320
