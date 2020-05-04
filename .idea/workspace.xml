@@ -2,83 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="841bc577-b721-4382-b641-4528d6c065fe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/about/__img-container/about__img-container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/about/__img/about__img.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/about/__square/about__square.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/about/__text-container/about__text-container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/about/__text/about__text.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/about/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/contact/__list-text/_type/contact__list-text_type_mail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/contact/__list-text/_type/contact__list-text_type_mark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/contact/__list-text/_type/contact__list-text_type_phone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/contact/__list-text/contact__list-text.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/contact/__list/contact__list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/contact/__lists/contact__lists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/contact/__nav/contact__nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/contact/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/__copyright/footer__copyright.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/footer/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/form/__input/_type/form__input_type_email.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/form/__input/_type/form__input_type_name.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/form/__input/_type/form__input_type_phone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/form/__input/form__input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/form/__submit-button/form__submit-button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/form/__textarea/form__textarea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/form/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/gallerie/__img/gallerie__img.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/gallerie/gallerie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__button-container/header__button-container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__button/_type/header__button_type_explore.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__button/_type/header__button_type_more.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__button/_type/header__button_type_table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__button/header__button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__date/header__date.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__decorate-line/header__decorate-line.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__link/header__link.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__links/header__links.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__list/header__list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__logo/header__logo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__main-container/header__main-container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__social-nav/header__social-nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__subtitle/header__subtitle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/__title/header__title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/__column/menu__column.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/__container/menu__container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/__item-description/menu__item-description.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/__item-name/menu__item-name.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/__item-price/menu__item-price.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/__item/menu__item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/__link/_type/nav__link_type_header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/__link/_type/nav__link_type_menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/__link/nav__link.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/__links/_type/nav__links_type_header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/__links/nav__links.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/__list/_type/nav__list_type_header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/__list/_type/nav__list_type_menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/__list/nav__list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/_position/nav_position_left.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/_position/nav_position_right.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/_type/nav_type_header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/_type/nav_type_menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/page/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/subtitle/subtitle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/title/title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Inter-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Inter-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Inter-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Inter-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Inter-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Inter-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/bunny/Banny-BoldRound.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/bunny/Banny-LightRound.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/bunny/Banny-Round.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nojekyll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,8 +18,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="280">
+              <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#li#0;n#ul#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -236,6 +162,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -245,16 +172,6 @@
             <path>
               <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
               <item name="restaurant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurant" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurant" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,16 +225,15 @@
       <workItem from="1588432230880" duration="3419000" />
       <workItem from="1588490250233" duration="10958000" />
       <workItem from="1588520989069" duration="9636000" />
-      <workItem from="1588577421363" duration="11861000" />
+      <workItem from="1588577421363" duration="12712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67245000" />
+    <option name="totallyTimeSpent" value="68096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27142859" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -664,8 +580,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="280">
+          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#li#0;n#ul#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
