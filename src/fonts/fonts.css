@@ -1,7 +1,7 @@
 @font-face {
   src:
-    url(./Inter-Regular.woff2) format('woff2'),
-    url(./Inter-Regular.woff) format('woff');
+    url(Inter-Regular.woff2) format('woff2'),
+    url(Inter-Regular.woff) format('woff');
   font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
@@ -9,8 +9,8 @@
 
 @font-face {
   src:
-    url(./Inter-Black.woff2) format("woff2"),
-    url(./Inter-Black.woff) format("woff");
+    url(Inter-Black.woff2) format("woff2"),
+    url(Inter-Black.woff) format("woff");
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
@@ -18,8 +18,8 @@
 
 @font-face {
   src:
-    url(./Inter-Medium.woff2) format("woff2"),
-    url(./Inter-Medium.woff) format("woff");
+    url(Inter-Medium.woff2) format("woff2"),
+    url(Inter-Medium.woff) format("woff");
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -29,7 +29,7 @@
   font-family: 'Banny Round';
   font-style: normal;
   font-weight: normal;
-  src: url(./bunny/Banny-Round.woff) format('woff');
+  src: url(bunny/Banny-Round.woff) format('woff');
 }
 
 
@@ -37,7 +37,7 @@
   font-family: 'Banny Light Round';
   font-style: normal;
   font-weight: normal;
-  src:url(./bunny/Banny-LightRound.woff) format('woff');
+  src:url(bunny/Banny-LightRound.woff) format('woff');
 }
 
 
@@ -45,5 +45,5 @@
   font-family: 'Banny Bold Round';
   font-style: normal;
   font-weight: normal;
-  src: url(./bunny/Banny-BoldRound.woff) format('woff');
+  src: url(bunny/Banny-BoldRound.woff) format('woff');
 }
