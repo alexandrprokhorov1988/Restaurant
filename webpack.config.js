@@ -12,7 +12,10 @@ module.exports = {
     rules: [
       {
         test: /\.(png|svg|jpg|gif)$/,
-        loader: 'file-loader?name=./images/[name].[ext]',
+        loader: 'file-loader',
+        options: {
+          outputPath: 'images',
+        }
       },
       {
         test: /\.(eot|ttf|woff|woff2)$/,
